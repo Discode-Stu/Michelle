@@ -1,38 +1,67 @@
 .App {
   text-align: center;
+  width: 100vw;
+  height: 100vh;
+  margin-top: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.home-base {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('./images/nyc/central-park.jpg');
+  background-size: cover;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.cover {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  z-index: -19;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+/* Pastel Pink: #ffd1dc
+Lavender Purple: #e6e6fa
+Neon Purple: #C724B1
+Neon Green: 39FF14; */
+
+.home-base-title {
+  color: white;
+  text-shadow: 0px 5px 3px #ffd1dc;
+  /* color: #ffd1dc; */
+  /* color: #e6e6fa;*/
+  /* color: #967bb6;  */
+  /* color: #C724B1; */
+  /* color: #39FF14; */
+
+  font-size: 6em;
+}
+
+.nav-container {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(22, 1fr)
+}
+
+.nav-universe {
+  grid-row: 2/2;
+  grid-column: 7/7
+}
+
+.nav-universe-link {
+  font-size: 2em;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.nav-digweed {
+  grid-row:12/13;
+  grid-column: 1/2;
+  align-self: end;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav-digweed-link {
+  font-size: 2em;
+  color: white;
 }
+ 

@@ -68,3 +68,52 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+### Color Palette
+
+Pastel Pink: #ffd1dc
+Lavender Purple: #e6e6fa
+Lavender purple real: #967bb6;
+Neon Purple: #C724B1
+Neon Green: 39FF14;
+
+
+
+As I stop, and take the time
+To inventory, the inside of my mind
+I realize, it’s not as full as it used to be.
+With images of justice, or desires of liberty
+The world has changed, or is it me that’s new?
+A different set of morale’s from a different set of clues
+So still I wonder, is this all there is to life?
+The ever changing cycles, in a world that’s damp and rife
+There must more, yah my heart I hold to this
+I’ve enjoyed love and I’ve seen the peace and bliss
+But as you know, all things must end, except the need for faith
+And the spirit that’s within to keep you strong
+
+Move forward with power, program yourself to feel
+With depth enough to know what’s up and heart to sense the real
+
+Where you at?
+
+As I stop, for the frame we set aside
+Below the baseline a secret place awaits for us to hide.
+To pass the time as the war goes on-and-on.
+A post-apocalyptic sunset, a post-apocalyptic dawn
+Of just a though of the world we want possessed
+A place that wasn’t honest was just a house with an address.
+Of existence, wrought with fear and mistrust, a life inside a box
+No life inside of us.
+Find you soul, use your inner voice,
+The road less traveled, is now the path of choice.
+Realize, with time comes change
+New attitudes, new values, priorities rearranged.
+
+Move forward with power, program yourself to feel
+With depth enough to know what’s up and heart to sense the real
+
+Where you at?
+
