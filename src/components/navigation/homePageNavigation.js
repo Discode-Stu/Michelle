@@ -1,7 +1,7 @@
 import React from 'react';
 import saucer from '../../images/alien/saucer.png';
 import galaxy from '../../images/universe/spiral-galaxy.jpg';
-import ariana from '../../images/ariana/scaryAriana.jpg';
+import ariana from '../../images/ariana/pinkAriana.jpg';
 import digweed from '../../images/digweed/psycadelic-digweed.png';
 import einstein from '../../images/banksy/einstein.jpg';
 

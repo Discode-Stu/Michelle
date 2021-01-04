@@ -1,3 +1,6 @@
+@import './pageNavigation.css';
+@import './alien.css';
+
 .App {
   text-align: center;
   width: 100vw;
@@ -143,16 +146,16 @@ Neon Green: 39FF14; */
 }
 
 .nav-ariana {
-  grid-row: 17/20;
-  grid-column: 5/5;
-  transform: translate(-10px, -10px)
+  grid-row: 19/20;
+  grid-column: 4/5;
+  transform: translate(40px, -10px)
   
 }
 
 .nav-ariana-img {
   border-radius: 70%;
-  height: 80px;
-  opacity: 0.5;
+  height: 20px;
+  opacity: 0.8;
   transform: rotate(10deg);
   position: relative;
 }

@@ -1,5 +1,6 @@
 import logo from './logo.svg';
-import './App.css';
+// import './App.css';
+import './styles/App.css';
 import Homepage from './components/pages/homepage'
 import AlienPage from './components/pages/alienPage'
 import ArianaPage from './components/pages/arianaPage'

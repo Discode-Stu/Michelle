@@ -1,0 +1,64 @@
+.page-nav-container {
+  display: flex;
+  justify-content: space-around;
+  background-color: #123153;
+}
+
+.page-nav-home {
+
+}
+
+.page-nav-home-title {
+  text-decoration: none;
+  color: #091b39;
+  text-shadow: 0px 5px 3px #71c4dc;
+  grid-row: -1/1;
+  grid-column: 5/7;
+  font-size: 4em;
+  
+  /* z-index: -1; */
+  position: relative;
+  
+}
+.page-nav-alien {
+
+}
+
+.page-nav-alien-img {
+  height: 50px;
+}
+.page-nav-banksy {
+
+}
+
+.page-nav-banksy-img {
+  height: 50px;
+}
+.page-nav-universe {
+
+}
+
+.page-nav-universe-img {
+  height: 50px;
+}
+.page-nav-digweed {
+
+}
+
+.page-nav-digweed-img {
+  height: 50px;
+}
+.page-nav-ariana {
+
+}
+
+.page-nav-ariana-img {
+  height: 50px;
+}
+.page-nav-home {
+
+}
+
+.page-nav-home-img {
+  height: 50px;
+}
