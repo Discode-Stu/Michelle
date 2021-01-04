@@ -9,44 +9,99 @@
   object-fit: cover;
   width: 100vw;
   height: 100vh;
-  background-image: url('./images/nyc/central-park.jpg');
-  background-size: cover;
+  /* background-image: url('./images/nyc/central-park.jpg'); */
+  /* background-size:cover; */
+  display: grid;
+  grid-template-columns: 1fr ;
+  grid-template-rows: 1fr ;
 }
 
-.cover {
+/* .cover {
   object-fit: cover;
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   z-index: -19;
-
-}
+} */
 
 /* Pastel Pink: #ffd1dc
 Lavender Purple: #e6e6fa
 Neon Purple: #C724B1
 Neon Green: 39FF14; */
-
+.home-base-img {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  /* top: 0;
+  left: 0; */
+  z-index: -4;
+  grid-row: -1/1;
+  grid-column: -1/1;
+}
+.nav-home {
+  grid-row: 1/1;
+  grid-column: 3/6;
+  transform: translate(100px, -10px);
+}
 .home-base-title {
-  color: white;
-  text-shadow: 0px 5px 3px #ffd1dc;
-  /* color: #ffd1dc; */
-  /* color: #e6e6fa;*/
-  /* color: #967bb6;  */
-  /* color: #C724B1; */
-  /* color: #39FF14; */
-
-  font-size: 6em;
+  text-decoration: none;
+  color: #091b39;
+  text-shadow: 0px 5px 3px #71c4dc;
+  grid-row: -1/1;
+  grid-column: 5/7;
+  font-size: 4em;
+  
+  z-index: -1;
+  position: relative;
 }
 
 .nav-container {
+  height: 100vh;
+  width: 100vw;
   display: grid;
+  grid-row: -1/1;
+  grid-column: -1/1;
   grid-template-columns: repeat(8, 1fr);
-  grid-template-rows: repeat(22, 1fr)
+  grid-template-rows: repeat(22, 1fr);
+  z-index: 1;
+}
+
+.nav-alien {
+  grid-row: -1/1;
+  grid-column: -11/1
+}
+
+.nav-alien-img {
+  animation: ufoAnimation 15s infinite;
+  position: relative;
+  border-radius: 50%;
+  opacity: .6;
+  top: 0;
+  left: 0;
+}
+
+@keyframes ufoAnimation {
+  /* from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); } */
+    0%   {left:0px;}
+    0%   {top: 0px}
+    15%   {left:0px;}
+    15%   {top: 0px}
+    25%  {top:100px}
+    25%  {left:50px}
+    70%  {left:200px;}
+    70%  {top:100px;}
+    95%  {top:80px;}
+    95%  {left:200px;}
+    97% {left:0px;}
+    97% {top:0px}
+    100% {left:0px;}
+    100% {top:0px;}
+
 }
 
 .nav-universe {
-  grid-row: 2/2;
-  grid-column: 7/7
+  grid-row: 1/1;
+  grid-column: 8/8;
 }
 
 .nav-universe-link {
@@ -54,14 +109,71 @@ Neon Green: 39FF14; */
   color: white;
 }
 
+.nav-universe-img {
+  height: 100px;
+  /* top: 30px;
+  right: 50px; */
+  border-radius: 50%; 
+  position: relative;
+  opacity: .8;
+  top: 0;
+  left: 0;
+
+}
+
 .nav-digweed {
-  grid-row:12/13;
-  grid-column: 1/2;
+  grid-row:1/1;
+  grid-column: 7/7;
   align-self: end;
+  
 }
 
 .nav-digweed-link {
   font-size: 2em;
   color: white;
 }
- 
+
+.nav-digweed-img {
+  height: 100px;
+  position: relative;
+  border-radius: 50%;
+  opacity: .6;
+  top: 39px;
+  left: 90px;
+}
+
+.nav-ariana {
+  grid-row: 17/20;
+  grid-column: 5/5;
+  transform: translate(-10px, -10px)
+  
+}
+
+.nav-ariana-img {
+  border-radius: 70%;
+  height: 80px;
+  opacity: 0.5;
+  transform: rotate(10deg);
+  position: relative;
+}
+
+.nav-banksy {
+  grid-row:20/20;
+  grid-column: 4/4;
+  align-self: end;
+  
+}
+
+.nav-banksy-link {
+  font-size: 2em;
+  color: white;
+}
+
+.nav-banksy-einstein-img {
+  height: 100px;
+  position: relative;
+  border-radius: 5%;
+  opacity: .7;
+  top: -19px;
+  left: 1px;
+}
