@@ -1,5 +1,7 @@
 @import './pageNavigation.css';
 @import './alien.css';
+@import './digweed.css';
+@import './universe.css';
 
 .App {
   text-align: center;

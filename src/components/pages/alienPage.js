@@ -2,16 +2,9 @@ import React, {useState} from 'react';
 import PageNavigation from '../navigation/pagesNavigation'
 import alien1 from '../../images/alien/visitor.jpg';
 
-
-
-
-
-
 export default function  AlienPage() {
 
   const [page, setPage] = useState(1)
-
-
 
   const pageUp = () => {
     if (page < 5) {
@@ -19,19 +12,15 @@ export default function  AlienPage() {
     } else {
       setPage(page)
     }
-    
-    console.log('page', page)
   }
+
   const pageDown= () => {
     if (page > 1) {
       setPage(page - 1)
     } else {
       setPage(page)
     }
-
-    console.log('page', page)
   }
-
 
   return (
     <div className='alien-container'>
@@ -46,7 +35,6 @@ export default function  AlienPage() {
           {/* <a className='alien-body-link' href={'https://www.google.com'}>Google</a> */}
       </div>
       <div className='alien-pagination'>
-
               {(() => {
                 switch (page) {
                   case 1:
@@ -93,7 +81,7 @@ export default function  AlienPage() {
                           <a className='alien-body-link' target="_blank" href={'https://www.youtube.com/watch?v=4UjqFaQq_7I&ab_channel=8NewsNOWLasVegas'}>S-4 Base</a>
                           <a className='alien-body-link' target="_blank" href={'https://www.youtube.com/watch?v=gFy6LVlNc6c&ab_channel=Denver7%E2%80%93TheDenverChannel'}>Definite Real Alien</a>
                         </div>
-                      )                      // return <Specie />;
+                      )           
 
                   default:
                     return <a className='alien-body-link' target="_blank" href={'https://www.google.com'}>default</a>;
