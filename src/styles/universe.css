@@ -135,7 +135,9 @@
   height: 80px;
   display: flex;
   /* z-index: 111; */
-  position: relative;
+  position: fixed;
+  top: 85vh;
+  right: 36.5vw;
   justify-content: space-around;
   padding: 20px;
   justify-items: center;

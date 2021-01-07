@@ -134,18 +134,19 @@ Neon Green: 39FF14; */
   
 }
 
-.nav-digweed-link {
+/* .nav-digweed-link {
   font-size: 2em;
   color: white;
-}
+} */
 
 .nav-digweed-img {
-  height: 100px;
-  position: relative;
+  height: 70px;
+
+  position: absolute;
   border-radius: 50%;
-  opacity: .6;
-  top: 39px;
-  left: 90px;
+  opacity: .7;
+  top: 7vh;
+  left: 80vw;
 }
 
 .nav-ariana {
