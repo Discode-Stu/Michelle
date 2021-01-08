@@ -21,7 +21,7 @@
 }
 
 .ariana-social {
-  color:  #cf999e;
+  color: #cf999e;
   /* color: #e8d8d6; */
   text-shadow: -3px 2px 5px #d0a299;
   font-size: 3em;
@@ -46,11 +46,9 @@
   height: 20vh;
   opacity: 0.5;
   position: absolute;
-
 }
 .ariana-home {
   justify-self: flex-end;
-  
 }
 
 .ariana_nav_class {
@@ -62,10 +60,9 @@
   padding-right: 90px;
   text-shadow: -2px 2px 2px #f2e1dc;
   position: absolute;
-  justify-self:flex-end;
+  justify-self: flex-end;
   /* width: 100vw; */
   width: 0px;
-  
 
   /* border: 3px yellow solid; */
 }
@@ -208,18 +205,16 @@
 
 .ariana-page-down:active {
   transform: scale(0.5);
-  background-color: #3e8e41;
+  background-color: #c79b9f;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
 .ariana-page-up:active {
   transform: scale(0.5);
-  background-color: #3e8e41;
+  background-color: #c79b9f;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
-
-
 
 .ariana-page-num {
   color: #e5c8c5;
