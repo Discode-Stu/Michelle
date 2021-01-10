@@ -17,9 +17,15 @@ import {
   faCoffee,
   faHeart,
   faHome,
+  faStopCircle,
+  faPauseCircle,
+  faPlayCircle,
+  faFastForward,
+  faFastBackward
+
 } from "@fortawesome/free-solid-svg-icons";
 
-library.add(fab, faCheckSquare, faCoffee, faHeart, faHome);
+library.add(fab, faCheckSquare, faCoffee, faHeart, faHome, faStopCircle, faPauseCircle, faPlayCircle, faFastBackward, faFastForward);
 
 function App() {
   return (

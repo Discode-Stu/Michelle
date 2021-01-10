@@ -4,6 +4,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import ariana from "../../images/ariana/space.jpg";
 import hearts from "../../images/ariana/pink-hearts.jpg";
 // import ariana from '../../images/ariana/glasses.jpg'
+import animationData from "../../images/lottie/hearts.json";
+import Lottie from "react-lottie";
+
 
 export default function ArianaPage() {
   const [page, setPage] = useState(1);
@@ -35,6 +38,21 @@ export default function ArianaPage() {
         />
       </div>
       <div className="ariana-image">
+      <Lottie className="ariana-lottie"
+        width={1100}
+        height={900}
+        // isPaused={paused}
+        // isStopped={stopped}
+        // speed={speed}
+        options={{
+          loop: true,
+          autoplay: true,
+          animationData,
+          rendererSettings: {
+            preserveAspectRatio: "xMidVMid slice",
+          },
+        }}
+      />
         <img className="ariana-image-img" src={ariana} />
       </div>
       <div className="ariana-hero">
