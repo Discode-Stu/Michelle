@@ -7,7 +7,6 @@ import hearts from "../../images/ariana/pink-hearts.jpg";
 import animationData from "../../images/lottie/hearts.json";
 import Lottie from "react-lottie";
 
-
 export default function ArianaPage() {
   const [page, setPage] = useState(1);
 
@@ -29,30 +28,51 @@ export default function ArianaPage() {
 
   return (
     <div className="ariana-container">
+      {/* <div className="ariana-lottie-left">
+        <Lottie
+          className="ariana-lottie-left"
+          width={610}
+          height={800}
+          // isPaused={paused}
+          // isStopped={stopped}
+          // speed={speed}
+          options={{
+            loop: true,
+            autoplay: true,
+            animationData,
+            rendererSettings: {
+              preserveAspectRatio: "xMidVMid slice",
+            },
+          }}
+        />
+      </div> */}
+
       <div className="ariana-home-nav">
         <img src={hearts} className="ariana-header" />
-        <PageNavigation className='ariana-home'
+        <PageNavigation
+          className="ariana-home"
           className1="ariana_nav_class"
           classNameNav="ariana_nav_class"
           classNameContainer="ariana_nav_class"
         />
       </div>
       <div className="ariana-image">
-      <Lottie className="ariana-lottie"
-        width={1100}
-        height={900}
-        // isPaused={paused}
-        // isStopped={stopped}
-        // speed={speed}
-        options={{
-          loop: true,
-          autoplay: true,
-          animationData,
-          rendererSettings: {
-            preserveAspectRatio: "xMidVMid slice",
-          },
-        }}
-      />
+        <Lottie
+          className="ariana-lottie"
+          width={1100}
+          height={900}
+          // isPaused={paused}
+          // isStopped={stopped}
+          // speed={speed}
+          options={{
+            loop: true,
+            autoplay: true,
+            animationData,
+            rendererSettings: {
+              preserveAspectRatio: "xMidVMid slice",
+            },
+          }}
+        />
         <img className="ariana-image-img" src={ariana} />
       </div>
       <div className="ariana-hero">
@@ -166,32 +186,60 @@ export default function ArianaPage() {
             <a className='ariana-link' target="_blank" href={'https://www.residentadvisor.net/dj/ariana'}>ResidentAdvisor</a> */}
         </div>
       </div>
-      <div className='footer'>
-        <a className='ariana-social' target="_blank" href={'https://www.arianagrande.com/'}>
+      <div className="footer">
+        <a
+          className="ariana-social"
+          target="_blank"
+          href={"https://www.arianagrande.com/"}
+        >
           <FontAwesomeIcon className="ariana-social-icon" icon="home" />
         </a>
-        
-        
-        <a className='ariana-social' target="_blank" href={'https://www.instagram.com/arianagrande/'}>
-          <FontAwesomeIcon className="ariana-social-icon" icon={['fab', 'instagram']} />
-        </a>
-        
-        <a className='ariana-social' target="_blank" href={'https://twitter.com/ArianaGrande?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor'}>
-          <FontAwesomeIcon className="ariana-social-icon" icon={['fab', 'twitter']} />
-        </a>
 
-        
-        <a className='ariana-social' target="_blank" href={'https://www.facebook.com/arianagrande/'}>
-          <FontAwesomeIcon className="ariana-social-icon" icon={['fab', 'facebook']} />
+        <a
+          className="ariana-social"
+          target="_blank"
+          href={"https://www.instagram.com/arianagrande/"}
+        >
+          <FontAwesomeIcon
+            className="ariana-social-icon"
+            icon={["fab", "instagram"]}
+          />
         </a>
 
-        
-        <a className='ariana-social' target="_blank" href={'https://www.youtube.com/channel/UC9CoOnJkIBMdeijd9qYoT_g/'}>
-          <FontAwesomeIcon className="ariana-social-icon" icon={['fab', 'youtube']} />
+        <a
+          className="ariana-social"
+          target="_blank"
+          href={
+            "https://twitter.com/ArianaGrande?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+          }
+        >
+          <FontAwesomeIcon
+            className="ariana-social-icon"
+            icon={["fab", "twitter"]}
+          />
         </a>
 
-        
+        <a
+          className="ariana-social"
+          target="_blank"
+          href={"https://www.facebook.com/arianagrande/"}
+        >
+          <FontAwesomeIcon
+            className="ariana-social-icon"
+            icon={["fab", "facebook"]}
+          />
+        </a>
 
+        <a
+          className="ariana-social"
+          target="_blank"
+          href={"https://www.youtube.com/channel/UC9CoOnJkIBMdeijd9qYoT_g/"}
+        >
+          <FontAwesomeIcon
+            className="ariana-social-icon"
+            icon={["fab", "youtube"]}
+          />
+        </a>
       </div>
     </div>
   );

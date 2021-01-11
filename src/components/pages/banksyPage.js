@@ -66,7 +66,7 @@ export default function BanksyPage() {
       </div>
       <div className="banksy-lottie-container">
         <Lottie
-          width={600}
+          width={1200}
           height={400}
           isPaused={paused}
           isStopped={stopped}

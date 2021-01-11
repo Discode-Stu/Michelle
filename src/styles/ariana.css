@@ -80,6 +80,14 @@
 .ariana-lottie {
 
 }
+.ariana-lottie-left {
+  /* grid-row: 1/2;
+  grid-column: 1/2; */
+  position: absolute;
+  bottom: 10vh;
+  left: 0vw;
+  z-index: 40;
+}
 
 .ariana-image-img {
   height: 100vh;
