@@ -17,7 +17,7 @@ export default function HomePageNavigation() {
           className="home-base-title"
           activeClassName="nav-link-active"
         >
-          Michelle Zoccolillo
+          Mich Elle
         </NavLink>
       </div>
       <div className="nav-alien">
